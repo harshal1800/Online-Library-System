@@ -5,8 +5,13 @@
   padding: 2rem;
   /* Keep text aligned left for readability */
   text-align: left;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ECF0F1; /* light gray bg */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   */
+     font-family: cursive;
+
+  /* background-color: #ECF0F1; light gray bg */
+    background-color: #d7d1fa;
+
   color: #34495E; /* dark gray text */
 }
 
@@ -24,6 +29,8 @@ nav a {
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
+  font-family: cursive;
+
 }
 
 nav a:hover,
@@ -60,13 +67,15 @@ input[type="text"],
 input[type="number"],
 textarea,
 select {
-  padding: 10px;
+  padding: 6px;
   width: 100%;
   max-width: 400px;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
+  font-family: cursive;
+
 }
 
 /* Lists */
@@ -116,3 +125,5 @@ li {
     animation: logo-spin infinite 20s linear;
   }
 }
+
+

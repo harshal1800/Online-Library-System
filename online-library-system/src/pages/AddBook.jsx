@@ -43,7 +43,7 @@ const AddBook = () => {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
+    <div style={{ padding: '1px' }}>
       <h2>Add a New Book</h2>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <form onSubmit={handleSubmit}>
@@ -52,7 +52,8 @@ const AddBook = () => {
         <input type="text" name="category" placeholder="Category" value={form.category} onChange={handleChange} /><br /><br />
         <textarea name="description" placeholder="Description" value={form.description} onChange={handleChange} /><br /><br />
         <input type="number" step="0.1" name="rating" placeholder="Rating (e.g. 4.5)" value={form.rating} onChange={handleChange} /><br /><br />
-        <button type="submit">Add Book</button>
+        <button type="submit" style={{ fontFamily: 'cursive' }}>Add Book</button>
+
       </form>
     </div>
   );

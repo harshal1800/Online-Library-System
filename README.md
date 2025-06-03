@@ -50,7 +50,7 @@ src/
 
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/your-username/online-library-system.git
+git clone https://github.com/harshal1800/Online-Library-System.git
 
 # Step 2: Navigate into the project directory
 cd online-library-system
@@ -63,8 +63,9 @@ npm run dev
 
 http://localhost:5173
 
-![Home Page](screenshots/home.png)
-![Browse Books](screenshots/browse.png)
+![Home Page](screenshots/sss (3).png)
+![Browse Books](screenshots/sss (1).png)
+![Add books](screenshots/sss (2).png)
 
 🙋 Author
 Name: Harshal Chavhan
